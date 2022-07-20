@@ -4,4 +4,4 @@ HORA=`date +"%H:%M"`
 #echo "Hoy es $DIA||$HORA"
 git add *
 git commit -m "$DIA||$HORA"
-pushall
+git push git@github.com:xfernandox22/My_Project.git
